@@ -1,0 +1,35 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Menu.gd" type="Script" id=1]
+
+[node name="Menu" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Save" type="Button" parent="."]
+margin_left = 319.861
+margin_top = 236.523
+margin_right = 331.861
+margin_bottom = 256.523
+text = "Save Game"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Load" type="Button" parent="."]
+margin_left = 319.861
+margin_top = 273.827
+margin_right = 331.861
+margin_bottom = 293.827
+text = "Load Game"
+
+[node name="Quit" type="Button" parent="."]
+margin_left = 321.449
+margin_top = 314.305
+margin_right = 333.449
+margin_bottom = 334.305
+text = "Quit Game"
