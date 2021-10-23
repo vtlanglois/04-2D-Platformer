@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Enemy/Enemy2.gd" type="Script" id=1]
+[ext_resource path="res://Assets/lollipopFruitGreen.png" type="Texture" id=2]
+
+[node name="Enemy2" type="Area2D"]
+script = ExtResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="."]
+texture = ExtResource( 2 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PoolVector2Array( 29, -27.1, 29, -24.7, 35, -17.2, 35, 16.4, 30.2, 26, 28.7, 26, 18.1, 35, -18.3, 35, -31, 25, -31, 22.7, -35, 17.4, -35, -16.1, -25.1, -31, -22.6, -31, -16.2, -35, 16.2, -35 )
+
+[connection signal="body_entered" from="." to="." method="_on_Node2D_body_entered"]

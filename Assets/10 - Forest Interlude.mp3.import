@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/10 - Forest Interlude.mp3-7e8b3c7ef632b078c563e2f0ec920187.mp3str"
+
+[deps]
+
+source_file="res://Assets/10 - Forest Interlude.mp3"
+dest_files=[ "res://.import/10 - Forest Interlude.mp3-7e8b3c7ef632b078c563e2f0ec920187.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
